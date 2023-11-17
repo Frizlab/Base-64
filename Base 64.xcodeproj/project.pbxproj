@@ -15,8 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B2D0CAB22F1CCBF0010B48F /* base64.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = base64.entitlements; sourceTree = "<group>"; };
-		7B2E6E681E50E20D003A22E0 /* base64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = base64.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2D0CAB22F1CCBF0010B48F /* Base 64.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Base 64.entitlements"; sourceTree = "<group>"; };
+		7B2E6E681E50E20D003A22E0 /* Base 64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base 64.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2E6E6B1E50E20D003A22E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B2E6E6D1E50E20D003A22E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B2E6E6F1E50E20D003A22E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 			children = (
 				7B89F94024D2FD4300AC25EC /* License.txt */,
 				7B89F94324D2FE4000AC25EC /* Readme.adoc */,
-				7B2E6E6A1E50E20D003A22E0 /* base64 */,
+				7B2E6E6A1E50E20D003A22E0 /* Base 64 */,
 				7B2E6E691E50E20D003A22E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,15 +51,15 @@
 		7B2E6E691E50E20D003A22E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B2E6E681E50E20D003A22E0 /* base64.app */,
+				7B2E6E681E50E20D003A22E0 /* Base 64.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B2E6E6A1E50E20D003A22E0 /* base64 */ = {
+		7B2E6E6A1E50E20D003A22E0 /* Base 64 */ = {
 			isa = PBXGroup;
 			children = (
-				7B2D0CAB22F1CCBF0010B48F /* base64.entitlements */,
+				7B2D0CAB22F1CCBF0010B48F /* Base 64.entitlements */,
 				7B2E6E6B1E50E20D003A22E0 /* AppDelegate.swift */,
 				7B2E6E6D1E50E20D003A22E0 /* ViewController.swift */,
 				7B2E6E7A1E50E57D003A22E0 /* Base64ValueTransformer.swift */,
@@ -67,15 +67,15 @@
 				7B2E6E711E50E20D003A22E0 /* Main.storyboard */,
 				7B2E6E741E50E20D003A22E0 /* Info.plist */,
 			);
-			path = base64;
+			path = "Base 64";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B2E6E671E50E20D003A22E0 /* base64 */ = {
+		7B2E6E671E50E20D003A22E0 /* Base 64 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B2E6E771E50E20D003A22E0 /* Build configuration list for PBXNativeTarget "base64" */;
+			buildConfigurationList = 7B2E6E771E50E20D003A22E0 /* Build configuration list for PBXNativeTarget "Base 64" */;
 			buildPhases = (
 				7B2E6E641E50E20D003A22E0 /* Sources */,
 				7B2E6E651E50E20D003A22E0 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = base64;
+			name = "Base 64";
 			productName = base64;
-			productReference = 7B2E6E681E50E20D003A22E0 /* base64.app */;
+			productReference = 7B2E6E681E50E20D003A22E0 /* Base 64.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B2E6E631E50E20D003A22E0 /* Build configuration list for PBXProject "base64" */;
+			buildConfigurationList = 7B2E6E631E50E20D003A22E0 /* Build configuration list for PBXProject "Base 64" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B2E6E671E50E20D003A22E0 /* base64 */,
+				7B2E6E671E50E20D003A22E0 /* Base 64 */,
 			);
 		};
 /* End PBXProject section */
@@ -277,13 +277,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = base64/base64.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Base 64/Base 64.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = M8JS42FSNG;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = base64/Info.plist;
+				INFOPLIST_FILE = "Base 64/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.ftw-and-co.base64";
@@ -296,13 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = base64/base64.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Base 64/Base 64.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = M8JS42FSNG;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = base64/Info.plist;
+				INFOPLIST_FILE = "Base 64/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.ftw-and-co.base64";
@@ -314,7 +314,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B2E6E631E50E20D003A22E0 /* Build configuration list for PBXProject "base64" */ = {
+		7B2E6E631E50E20D003A22E0 /* Build configuration list for PBXProject "Base 64" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B2E6E751E50E20D003A22E0 /* Debug */,
@@ -323,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B2E6E771E50E20D003A22E0 /* Build configuration list for PBXNativeTarget "base64" */ = {
+		7B2E6E771E50E20D003A22E0 /* Build configuration list for PBXNativeTarget "Base 64" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B2E6E781E50E20D003A22E0 /* Debug */,

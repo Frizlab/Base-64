@@ -290,6 +290,7 @@
 				DEVELOPMENT_TEAM = DVL8GW97S8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Base 64/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -311,6 +312,7 @@
 				DEVELOPMENT_TEAM = DVL8GW97S8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Base 64/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
